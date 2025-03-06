@@ -13,7 +13,7 @@ const clear=()=>
 <template>
   <div class="card">
     <h2>Nom: {{ localProduct.Name }}</h2>
-    <h5>Description:{{ localProduct.Description }}</h5>
+    <h5>Description: {{ localProduct.Description }}</h5>
     <h5>Stock : {{ localProduct.Stock }}</h5>
     <button @click="clear">Retour</button>
   </div>
